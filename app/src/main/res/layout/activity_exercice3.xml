@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Exercice3Activity"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:text="@string/exercice3_text1"
+        android:textColor="#808080"
+        />
+
+    <ImageView
+        android:id="@+id/exercice3_mainOrdi"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_gravity="center"
+        android:padding="5dp"
+        android:background="@drawable/image_border"
+        />
+
+
+    <TextView
+        android:id="@+id/exercice3_Resultat"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:text="@string/exercice3_Resultat"
+        android:textColor="#FF0000"
+        android:textSize="30dp"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:text="@string/exercice3_text2"
+        android:textColor="#808080"
+        />
+
+    <LinearLayout
+        android:id="@+id/exercice3_Layout2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="center"
+        android:gravity="center">
+        <ImageView
+            android:id="@+id/exercice3_papier"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:padding="5dp"
+            android:src="@drawable/papier"
+            android:onClick="onExercice3_choix1"
+            android:background="@drawable/image_border"
+            />
+
+        <ImageView
+            android:id="@+id/exercice3_caillou"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:padding="5dp"
+            android:src="@drawable/caillou"
+            android:onClick="onExercice3_choix2"
+            android:background="@drawable/image_border"
+            />
+
+        <ImageView
+            android:id="@+id/exercice3_ciseaux"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:padding="5dp"
+            android:src="@drawable/ciseaux"
+            android:onClick="onExercice3_choix3"
+            android:background="@drawable/image_border"
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/exercice3_box"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="100dp"
+        android:orientation="vertical"
+        >
+        <TextView
+            android:id="@+id/exercice3_victoires"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/exercice3_nbVictoires"
+            android:textColor="#808080"
+            />
+        <TextView
+            android:id="@+id/exercice3_defaites"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/exercice3_nbDefaites"
+            android:textColor="#808080"
+            />
+        <TextView
+            android:id="@+id/exercice3_egalites"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/exercice3_nbEgalités"
+            android:textColor="#808080"
+            />
+
+    </LinearLayout>
+
+</LinearLayout>

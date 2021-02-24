@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Exercice1Activity"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/exercice1_text"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:layout_marginTop="300dp"/>
+
+    <EditText android:id="@+id/exercice1_prenom"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/exercice1_prenom"
+        android:textAlignment="textStart"
+        android:gravity="center"
+        tools:ignore="RtlCompat" />
+
+    <Button
+        android:id="@+id/exercice1_valider"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:text="@string/exercice1_button"
+        android:onClick="exercice1Valider"/>
+
+    <TextView android:id="@+id/exercice1_hello"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/exercice1_hello"
+        android:gravity="center"
+        android:layout_gravity="center"/>
+
+</LinearLayout>

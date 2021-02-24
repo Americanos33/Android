@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">Android-TP</string>
+
+    <string name="exercice1">Exercice 1</string>
+    <string name="exercice2">Exercice 2</string>
+    <string name="exercice3">Exercice 3</string>
+    <string name="exercice4">Exercice 4</string>
+    <string name="exercice5">Exercice 5</string>
+    <string name="exercice1_text">Ecrire votre prénom et valider</string>
+    <string name="exercice1_prenom" />
+    <string name="exercice1_button">VALIDER</string>
+    <string name="exercice1_hello">Hello World !</string>
+    <string name="exercice2_text">Quelle a été la différence de buts lors du match de football opposant l\'équipe enseignante du département à l\'équipe étudiante ?</string>
+    <string name="exercice2_boutton1">+ 10 pour les enseignants</string>
+    <string name="exercice2_boutton2">0 Match nul</string>
+    <string name="exercice2_boutton3">+ 1 pour les étudiants</string>
+    <string name="exercice2_valider">VALIDER MA REPONSE</string>
+    <string name="exercice2_text2">Choisir une réponse et valider</string>
+    <string name="exercice3_text1">Main de l\'ordinateur</string>
+    <string name="exercice3_textDefaite">Defaite !</string>
+    <string name="exercice3_textVictoire">Victoire !</string>
+    <string name="exercice3_textEgalite">Egalité !</string>
+    <string name="exercice3_Resultat">Resultat</string>
+    <string name="exercice3_text2">Choisir une main</string>
+    <string name="exercice3_Null">Egalité !</string>
+    <string name="exercice3_nbVictoires">"Nombre de victoires : "</string>
+    <string name="exercice3_nbDefaites">"Nombre de défaites : "</string>
+    <string name="exercice3_nbEgalités">Nombre d\'égalités : </string>
+</resources>
