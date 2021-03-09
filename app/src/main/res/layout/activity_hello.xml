@@ -4,23 +4,15 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".Exercice4Activity"
+    tools:context=".HelloActivity"
     android:orientation="vertical">
 
-    <TextView
-        android:layout_width="match_parent"
+    <TextView android:id="@+id/exercice4_hellonom"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_gravity="center"
         android:gravity="center"
-        android:text="Ecris ton prénom"
-        android:textColor="808080"
-        />
-
-    <EditText
-        android:id="@+id/exercice4_nom"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text=""
+        android:layout_gravity="center"
+        android:text="Hello Name !!!"
         />
 
     <Button
@@ -28,8 +20,18 @@
         android:layout_height="wrap_content"
         android:layout_gravity="center"
         android:gravity="center"
-        android:text="Valider"
-        android:onClick="helloActivity"
+        android:text="CHANGER DE PRENOM"
+        android:onClick="changer"
+        />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:text="CHOISIR UN AUTRE EXERCICE"
+        android:onClick="fin"
+        android:layout_marginTop="600dp"
         />
 
 </LinearLayout>
